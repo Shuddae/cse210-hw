@@ -6,11 +6,21 @@ public class Journal
 
     public void AddEntry(Entry newEntry)
     {
-
+        Console.WriteLine("What was the most important thing you did today?");
     }
 
     public void DisplayAll()
     {
         
+    }
+
+    public void SaveToFile(string file)
+    {
+
+    }
+
+    public void LoadFromFile(string file)
+    {
+
     }
 }
